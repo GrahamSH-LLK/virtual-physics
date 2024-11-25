@@ -9807,7 +9807,6 @@
       .s()
       .p("EhblBNFMAAAiaJMC3LAAAMAAACaJg");
     this.shape_1201.setTransform(-6.4, 0);
-    debugger;
     this.shape.mask =
       this.shape_1.mask =
       this.shape_2.mask =

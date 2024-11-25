@@ -136,8 +136,6 @@ function createLayout(array, parent, bool) {
 }
 
 function createInstance(object) {
-   debugger;
-  console.log('hi', object);
   var instance, i;
   if (object.namespace) {
     instance = new window[object.namespace][object.type]();
