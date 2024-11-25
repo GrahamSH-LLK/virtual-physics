@@ -164,8 +164,8 @@ var Lab = (function () {
 
   function updatePosition() {
     scope.layout.PositionValue.text =
-      ((Model.currentPosition - Model.Ball.startX) / Model.unit).toFixed(2) +
-      " m";
+      (Model.velocityX).toFixed(2) +
+      " m/s";
   }
 
   function updateScore() {
@@ -309,7 +309,7 @@ var Model = {
     startY: 396.6,
   },
   step: 0.04,
-  unit: 264,
+  unit: 261,
   time: 0,
   acceleration: 1.8,
   pHolesRadiusOuter: 41,
